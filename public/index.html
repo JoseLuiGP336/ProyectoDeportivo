@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+        <img src="https://i.pinimg.com/236x/da/b2/4a/dab24a4c02912acc17d48d1c4c1de3ef.jpg" width="40" height="40"
+            class="d-inline-block align-top" alt="">
+        Control LED light
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+        <!-- <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Index <span class="sr-only">(current)</span></a>
+            </li>
+        </ul> -->
+
+    </div>
+</nav>
+
+
+<div class="container">
+    <div class="row text-center justify-content-center mt-1">
+        <div class="col-lg-12 col-md-4 col-sm-6 mb-1 mt-3">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h5>INSTITUTO POLITECNICO NACIONAL</h5>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <h5>PESCUELA SUPERIOR DE INGENIERIA MECANICA Y ELECTRICA</h5>
+                        </li>
+                        <li class="list-group-item">
+                            <h5>Proyecto: Control LED light</h5>
+                        </li>
+                        <li class="list-group-item">
+                            <h5>PROFESOR: GALICIA GALICIA ROBERTO</h5>
+                        </li>
+                        <li class="list-group-item">
+                            <h5>ALUMNO: GUTIÉRREZ PABLO JOSÉ LUIS</h5>
+                        </li>
+                        <li class="list-group-item">
+                            <h5>GRUPO: 6CM1</h5>
+                        </li>
+                        <li class="list-group-item">
+                            <h5>NUMERO DE BOLETA: 2014160179</h5>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-footer text-muted">
+
+                </div>
+            </div>
+        </div>
+        <!--AQUI ES LA CARD-->
+        <div class="col-lg-12 col-md-4 col-sm-6 mb-1 mt-3">
+            <div class="card-deck">
+                <div class="card">
+                    <img src="https://i.pinimg.com/originals/34/95/7a/34957a82d32d7e6d0a9e41b7ba70c520.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Squash</h5>
+                  
+
+                        <ul class="list-group list-group-horizontal-lg justify-content-center">
+                            <li class="list-group-item">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value=""  id="light">
+                                    <label class="form-check-label" for="light">
+                                        Cancha 1
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="light1">
+                                    <label class="form-check-label" for="light1">
+                                        Cancha 2
+                                    </label>
+                                </div>
+                            </li>
+
+                        </ul>
+
+
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://i.pinimg.com/originals/34/95/7a/34957a82d32d7e6d0a9e41b7ba70c520.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Basquet</h5>
+                        
+                            <ul class="list-group list-group-horizontal-lg justify-content-center">
+                                <li class="list-group-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""  id="light2">
+                                        <label class="form-check-label" for="light2">
+                                            Cancha 1
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://i.pinimg.com/originals/34/95/7a/34957a82d32d7e6d0a9e41b7ba70c520.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Fronton</h5>
+                        
+                            <ul class="list-group list-group-horizontal-lg justify-content-center">
+                                <li class="list-group-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""  id="light3">
+                                        <label class="form-check-label" for="light3">
+                                            Cancha 1
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-12 col-md-4 col-sm-6 mb-1 mt-3">
+            <div class="card-deck">
+                <div class="card">
+                    <img src="https://i.pinimg.com/originals/34/95/7a/34957a82d32d7e6d0a9e41b7ba70c520.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Box</h5>
+                        
+
+                            <ul class="list-group list-group-horizontal-lg justify-content-center">
+                                <li class="list-group-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""  id="light4">
+                                        <label class="form-check-label" for="light4">
+                                            Ring 1
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://i.pinimg.com/originals/34/95/7a/34957a82d32d7e6d0a9e41b7ba70c520.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ajedrez</h5>
+                        
+                            <ul class="list-group list-group-horizontal-lg justify-content-center">
+                                <li class="list-group-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""  id="light5">
+                                        <label class="form-check-label" for="light5">
+                                            Tablero 1
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://i.pinimg.com/originals/34/95/7a/34957a82d32d7e6d0a9e41b7ba70c520.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Domino</h5>
+                        
+                            <ul class="list-group list-group-horizontal-lg justify-content-center">
+                                <li class="list-group-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""  id="light6">
+                                        <label class="form-check-label" for="light6">
+                                            Tablero 1
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+        <div class="col-lg-12 col-md-4 col-sm-6 mb-1 mt-3">
+            <div class="card-deck">
+                <div class="card">
+                    <img src="https://i.pinimg.com/originals/34/95/7a/34957a82d32d7e6d0a9e41b7ba70c520.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Futbol</h5>
+                        
+
+                            <ul class="list-group list-group-horizontal-lg justify-content-center">
+                                <li class="list-group-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""  id="light7">
+                                        <label class="form-check-label" for="light7">
+                                            Cancha 1
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://i.pinimg.com/originals/34/95/7a/34957a82d32d7e6d0a9e41b7ba70c520.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Billar</h5>
+                        
+                            <ul class="list-group list-group-horizontal-lg justify-content-center">
+                                <li class="list-group-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""  id="light8">
+                                        <label class="form-check-label" for="light8">
+                                            Mesa 1
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                
+
+                
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+
+<script src="/socket.io/socket.io.js"></script> <!-- include socket.io client side script -->
+<script>
+let controllight = 0; let controllight1 = 0; let controllight2 = 0; let controllight3 = 0; 
+let controllight4 = 0; let controllight5 = 0; let controllight6 = 0; let controllight7 = 0; 
+let controllight8 = 0;  
+var socket = io(); //load socket.io-client and connect to the host that serves the page
+window.addEventListener("load", function(){ //when page loads
+  var lightbox = document.getElementById("light");
+  var lightbox1 = document.getElementById("light1");
+  var lightbox2 = document.getElementById("light2");
+  var lightbox3 = document.getElementById("light3");
+  var lightbox4 = document.getElementById("light4");
+  var lightbox5 = document.getElementById("light5");
+  var lightbox6 = document.getElementById("light6");
+  var lightbox7 = document.getElementById("light7");
+  var lightbox8 = document.getElementById("light8");
+  
+  lightbox.addEventListener("change", function() { //add event listener for when checkbox changes
+    console.log(lightbox.checked);
+    if(lightbox.checked){
+        socket.emit("light", 1); //send button status to server (as 1 or 0)
+        console.log("PRENDIO")
+    }else{
+        socket.emit("light", 0); //send button status to server (as 1 or 0)
+        console.log("APAGADO")
+    }
+    
+  });
+  lightbox1.addEventListener("change", function() { //add event listener for when checkbox changes
+    console.log(lightbox1.checked);
+    if(lightbox1.checked){
+        socket.emit("light1", 1); //send button status to server (as 1 or 0)
+        console.log("PRENDIO")
+    }else{
+        socket.emit("light1", 0); //send button status to server (as 1 or 0)
+        console.log("APAGADO");
+    }
+    
+  });
+
+  lightbox2.addEventListener("change", function() { //add event listener for when checkbox changes
+    console.log(lightbox2.checked);
+    if(lightbox2.checked){
+        socket.emit("light2", 1); //send button status to server (as 1 or 0)
+        console.log("PRENDIO");
+    }else{
+        socket.emit("light2", 0); //send button status to server (as 1 or 0)
+        console.log("APAGADO");
+    }
+    
+  });
+
+
+  lightbox3.addEventListener("change", function() { //add event listener for when checkbox changes
+    console.log(lightbox3.checked);
+    if(lightbox3.checked){
+        socket.emit("light3", 1); //send button status to server (as 1 or 0)
+        console.log("PRENDIO");
+    }else{
+        socket.emit("light3", 0); //send button status to server (as 1 or 0)
+        console.log("APAGADO");
+    }
+  });
+
+  lightbox4.addEventListener("change", function() { //add event listener for when checkbox changes
+    console.log(lightbox4.checked);
+    if(lightbox4.checked){
+        socket.emit("light4", 1); //send button status to server (as 1 or 0)
+        console.log("PRENDIO");
+    }else{
+        socket.emit("light4", 0); //send button status to server (as 1 or 0)
+        console.log("APAGADO");
+    }
+  });
+
+  lightbox5.addEventListener("change", function() { //add event listener for when checkbox changes
+    console.log(lightbox5.checked);
+    if(lightbox5.checked){
+        socket.emit("light5", 1); //send button status to server (as 1 or 0)
+        console.log("PRENDIO");
+    }else{
+        socket.emit("light5", 0); //send button status to server (as 1 or 0)
+        console.log("APAGADO");
+    }
+  });
+  lightbox6.addEventListener("change", function() { //add event listener for when checkbox changes
+    console.log(lightbox6.checked);
+    if(lightbox6.checked){
+        socket.emit("light6", 1); //send button status to server (as 1 or 0)
+        console.log("PRENDIO");
+    }else{
+        socket.emit("light6", 0); //send button status to server (as 1 or 0)
+        console.log("APAGADO");
+    }
+  });
+
+  lightbox7.addEventListener("change", function() { //add event listener for when checkbox changes
+    console.log(lightbox7.checked);
+    if(lightbox7.checked){
+        socket.emit("light7", 1); //send button status to server (as 1 or 0)
+        console.log("PRENDIO");
+    }else{
+        socket.emit("light7", 0); //send button status to server (as 1 or 0)
+        console.log("APAGADO");
+    }
+  });
+
+  lightbox8.addEventListener("change", function() { //add event listener for when checkbox changes
+    console.log(lightbox8.checked);
+    if(lightbox8.checked){
+        socket.emit("light8", 1); //send button status to server (as 1 or 0)
+        console.log("PRENDIO");
+    }else{
+        socket.emit("light8", 0); //send button status to server (as 1 or 0)
+        console.log("APAGADO");
+    }
+  });
+});
+
+
+
+
+
+
+socket.on('light', function (data) { //get button status from client
+  if(data===1){
+    document.getElementById("light").checked = 1; //change checkbox according to push button on Raspberry Pi
+    socket.emit("light", 1); 
+      controllight = controllight+1
+    }
+    else{
+      if (controllight >= 2){
+        document.getElementById("light").checked = 0; //change checkbox according to push button on Raspberry Pi
+        socket.emit("light", 0); 
+        controllight = 0
+      } 
+    }
+});
+
+
+
+socket.on('light1', function (data) { //get button status from client
+  if(data===1){
+    document.getElementById("light1").checked = 1; //change checkbox according to push button on Raspberry Pi
+    socket.emit("light1", 1); 
+    controllight1 = controllight1+1
+    }
+    else{
+      if (controllight1 >= 2){
+          console.log("light1");
+        document.getElementById("light1").checked = 0; //change checkbox according to push button on Raspberry Pi
+        socket.emit("light1", 0); 
+        controllight1 = 0
+      }
+    }
+});
+
+
+socket.on('light2', function (data) { //get button status from client
+  if(data===1){
+    document.getElementById("light2").checked = 1; //change checkbox according to push button on Raspberry Pi
+    socket.emit("light2", 1); 
+    controllight2 = controllight2+1
+    }
+    else{
+      if (controllight2 >= 2){
+        document.getElementById("light2").checked = 0; //change checkbox according to push button on Raspberry Pi
+        socket.emit("light2", 0); 
+        controllight2 = 0
+      }
+      
+    }
+});
+
+
+socket.on('light3', function (data) { //get button status from client
+  if(data===1){
+    document.getElementById("light3").checked = 1; //change checkbox according to push button on Raspberry Pi
+    socket.emit("light3", 1); 
+    controllight3 = controllight3+1;
+    }
+    else{
+      if (controllight3 >= 2){
+        document.getElementById("light3").checked = 0; //change checkbox according to push button on Raspberry Pi
+        socket.emit("light3", 0); 
+        controllight3 = 0
+      }
+      
+    }
+});
+
+
+
+
+socket.on('light4', function (data) { //get button status from client
+  if(data===1){
+    document.getElementById("light4").checked = 1; //change checkbox according to push button on Raspberry Pi
+    socket.emit("light4", 1); 
+    controllight4 = controllight4+1
+    }
+    else{
+      if (controllight4 >= 2){
+        document.getElementById("light4").checked = 0; //change checkbox according to push button on Raspberry Pi
+        socket.emit("light4", 0); 
+        controllight4 = 0
+      }
+      
+    }
+});
+
+socket.on('light5', function (data) { //get button status from client
+  if(data===1){
+    document.getElementById("light5").checked = 1; //change checkbox according to push button on Raspberry Pi
+    socket.emit("light5", 1); 
+    controllight5 = controllight5+1
+    }
+    else{
+      if (controllight5 >= 2){
+        document.getElementById("light5").checked = 0; //change checkbox according to push button on Raspberry Pi
+        socket.emit("light5", 0); 
+        controllight5 = 0
+      }
+      
+    }
+});
+
+socket.on('light6', function (data) { //get button status from client
+  if(data===1){
+    document.getElementById("light6").checked = 1; //change checkbox according to push button on Raspberry Pi
+    socket.emit("light6", 1); 
+    controllight6 = controllight6+1
+    }
+    else{
+      if (controllight6 >= 2){
+          console.log("light6");
+        document.getElementById("light6").checked = 0; //change checkbox according to push button on Raspberry Pi
+        socket.emit("light6", 0); 
+        controllight6 = 0
+      }
+    }
+});
+
+
+socket.on('light7', function (data) { //get button status from client
+  if(data===1){
+    document.getElementById("light7").checked = 1; //change checkbox according to push button on Raspberry Pi
+    socket.emit("light7", 1); 
+    controllight7 = controllight7+1
+    }
+    else{
+      if (controllight7 >= 2){
+          console.log("light7");
+        document.getElementById("light7").checked = 0; //change checkbox according to push button on Raspberry Pi
+        socket.emit("light7", 0); 
+        controllight7 = 0
+      }
+    }
+});
+
+
+socket.on('light8', function (data) { //get button status from client
+  if(data===1){
+    document.getElementById("light8").checked = 1; //change checkbox according to push button on Raspberry Pi
+    socket.emit("light8", 1); 
+    controllight8 = controllight8+1
+    }
+    else{
+      if (controllight8 >= 2){
+          console.log("light8");
+        document.getElementById("light8").checked = 0; //change checkbox according to push button on Raspberry Pi
+        socket.emit("light8", 0); 
+        controllight8 = 0
+      }
+    }
+});
+
+  /*let suma = 0;
+  let estatusNavegador = 1;
+var socket = io(); //load socket.io-client and connect to the host that serves the page
+var lightbox = document.getElementById("light");
+lightbox.addEventListener('change', (event) => {
+    socket.emit("light", Number(this.checked));
+  if (event.currentTarget.checked) {
+    socket.emit("space", '0001');
+  } else {
+    socket.emit("space", '0000');
+  }
+})*/
+/*socket.on('light', function (data) { //get button status from client
+  if(data==='0001'){
+    document.getElementById("light").checked = 1; //change checkbox according to push button on Raspberry Pi
+    socket.emit("light", data); //send push button status to back to server
+    suma = suma+1
+    console.log("PRENDIDO");
+  }else{
+    if(data === '0000'){
+      document.getElementById("light").checked = 0; //change checkbox according to push button on Raspberry Pi
+      socket.emit("light", data); //send push button status to back to server
+      console.log(data);
+      console.log("APAGADO");
+      suma = 0;
+    }
+    
+  }
+  
+});*/
+</script>
+
+</body>
+</html>
